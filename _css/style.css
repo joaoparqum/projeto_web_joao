@@ -21,6 +21,14 @@ h2{
     margin-bottom: 20px;
 }
 
+h2#carreira{
+    margin-top: 30px;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
 a{
     font-size: 20px;
     color: white;
@@ -43,10 +51,30 @@ img#tenis{
 section{
     color: yellow;
     margin: 60px;
+    font-size: 18px;
 }
 
 section#Melhores video{
-    margin-left: 360px;
+    margin-left: 310px;
+}
+
+section#Carreira{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    width: 900px;
+}
+
+iframe{
+    margin-right: 20px;
+    width: 900px;
+}
+
+iframe#jordan{
+    margin-bottom: 20px;
+    margin-left: 160px;
 }
 
 nav#menu{
@@ -87,9 +115,9 @@ section#link{
 
 footer{
     text-align: center;
-    color: black;
+    color: yellow;
     font-size: 20px;
-    background-color: aliceblue;
+    background-color: rgb(104, 16, 104);
     padding: 15px;
 }
 
@@ -102,4 +130,12 @@ div#interface{
 header#cabecalho{
     border-bottom: 1px black solid;
     text-align: center;
+}
+
+ul#lista{
+    margin-left: 90px;
+}
+
+ul#olim{
+    margin-left: 25px;
 }
