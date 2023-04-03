@@ -139,3 +139,23 @@ ul#lista{
 ul#olim{
     margin-left: 25px;
 }
+
+table#tablespec{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tablespec td{
+    border: 1px solid #606060;
+    padding: 10px;
+}
+
+table#tablespec td.ce{
+    background-color: darkmagenta;
+}
+
+table#tablespec caption{
+    margin-bottom: 10px;
+}
