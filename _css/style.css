@@ -76,7 +76,32 @@ iframe#jordan{
     margin-bottom: 20px;
     margin-left: 160px;
 }
+div.meu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(104, 16, 104);
+}
 
+nav#menu{
+    display: block;
+}
+
+nav#menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: yellow;
+}
+
+nav#menu a:hover{
+    color: darkmagenta;
+    text-decoration: underline;
+}
+/*
 nav#menu{
     display: block;
 }
@@ -107,7 +132,7 @@ nav#menu a{
 nav#menu a:hover{
     color: yellow;
     text-decoration: underline;
-}
+}*/
 
 section#link{
     margin-left: 590px;
@@ -141,9 +166,9 @@ div#conta{
 }
 
 div#interface{
-    box-shadow: 0px 0px 10px darkmagenta;
-    padding: 0px 10px 10px 10px;
-    margin: 60px;
+   /* box-shadow: 0px 0px 10px darkmagenta;*/
+    /*padding: 0px 10px 10px 10px;*/
+    /*margin: 60px;*/
 }
 
 header#cabecalho{
