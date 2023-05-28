@@ -165,11 +165,11 @@ div#conta{
     justify-content: center;
 }
 
-div#interface{
+/*div#interface{
    /* box-shadow: 0px 0px 10px darkmagenta;*/
     /*padding: 0px 10px 10px 10px;*/
-    /*margin: 60px;*/
-}
+    /*margin: 60px;
+}*/
 
 header#cabecalho{
     border-bottom: 1px black solid;
