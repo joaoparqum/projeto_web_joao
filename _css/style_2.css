@@ -1,3 +1,4 @@
+/*deixando o site responsivo*/
 *{
     margin: 0;
     padding: 0;
@@ -39,10 +40,6 @@ picture.foto img{
     margin-left: 350px;
 }
 
-iframe{
-    margin-left: 400px
-}
-
 footer{
     text-align: center;
     color: yellow;
@@ -79,4 +76,15 @@ section{
 div{
     display: flex;
     justify-content: center; 
+}
+
+/*centralizando o iframe e a foto redimensional*/
+div.foto{
+    display: flex;
+    justify-content: center;
+}
+
+div.iframe{
+    display: flex;
+    justify-content: center;
 }
